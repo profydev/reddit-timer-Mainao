@@ -10,6 +10,7 @@ function App() {
     <Router>
       <Normalize />
       <GlobalStyle />
+      <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/search" component={Search} />
