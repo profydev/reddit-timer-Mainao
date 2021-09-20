@@ -23,7 +23,7 @@ const Menu = styled.ul`
 const Header = () => (
   <Nav>
     <Router>
-      <Link to="/"><img src={logo} alt="" /></Link>
+      <Link to="/"><img src={logo} alt="" style={{ display: 'block' }} /></Link>
       <Navlink>
         <Menu>
           <a href="#0">Search</a>
