@@ -11,5 +11,10 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Bitter', serif;
         color: #000000;
     }
+
+    a {
+        color: #93918F;
+        text-decoration: none;
+    }
 `;
 export default GlobalStyle;
